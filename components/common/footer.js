@@ -35,13 +35,13 @@ export default function Footer () {
                 </div>
                 <div className="w-full md:w-1/4 pt-6 md:p-6">
                     <ul className="flex justify-center px-3">
-                        <li class="mr-6 py-1">
+                        <li className="mr-6 py-1">
                             <a className="hover:text-[#585989]" href="#!"><Facebook /></a>
                         </li>
-                        <li class="mr-6 py-1">
+                        <li className="mr-6 py-1">
                             <a className="hover:text-[#585989]" href="#!"><Twitter /></a>
                         </li>
-                        <li class="mr-6 py-1">
+                        <li className="mr-6 py-1">
                             <a className="hover:text-[#585989]" href="#!"><Instagram /></a>
                         </li>
                     </ul>
