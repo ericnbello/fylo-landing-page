@@ -7,7 +7,7 @@ export default function Nav () {
                 <Logo />
             </div>
             <div>
-                <ul className="flex px-3 text-sm md:text-md">
+                <ul className="flex px-1 text-sm md:text-lg">
                     <li className="mr-6 py-6">
                         <a className="text-neutral-800 hover:text-[#585989]" href="#!">Features</a>
                     </li>
