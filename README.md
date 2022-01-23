@@ -1,1 +1,1 @@
-![Project Screenshot](public/images/landing-page-screenshot.jpg)
+![Project Screenshot](./public/images/landing-page-screenshot.jpg)
