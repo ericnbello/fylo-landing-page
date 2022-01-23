@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function Testimonial() {
     return (
-        <div className="md:items-start max-w-sm bg-white rounded-md shadow-md p-5">
+        <div className="md:items-start max-w-sm bg-white rounded-md shadow-md">
             <div className="md:flex">
                 <div className="p-8">
                     <Quotes /> 

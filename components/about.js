@@ -13,7 +13,7 @@ export default function About() {
                 height="250" 
                 />
             </div>
-            <div className="md:flex md:text-left md:flex-row-reverse mx-auto md:p-20 p-10 bg-[#F8F8FE]">
+            <div className="md:flex md:text-left md:flex-row-reverse mx-auto md:p-20 p-5 bg-[#F8F8FE]">
                 <div className="md:w-1/2 w-full p-6 md:flex-row-reverse">
                     <AboutImage />
                 </div>
@@ -37,7 +37,9 @@ export default function About() {
                             </a>
                         </p>
                     </div>
-                    <Testimonial />
+                    <div className="items-center p-6 md:p-0">
+                        <Testimonial />
+                    </div>
                 </div>
             </div>
         </div>
