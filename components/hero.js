@@ -16,9 +16,13 @@ export default function Hero () {
                     Access them wherever you need, share and collaborate with friends, 
                     family, and co-workers.
                 </p>
-                <div className="w-full inline-flex lg:justify-start sm:justify-center p-6">
-                    <EmailSignupForm className="w-screen" />
-                    <GetStartedButton />
+                <div className="w-full block md:flex md:gap-3 md:justify-start justify-center md:pl-3">
+                    <div className="md:w-2/3">
+                        <EmailSignupForm />
+                    </div>
+                    <div className="md:w-1/3">
+                        <GetStartedButton />
+                    </div>
                 </div>
             </div>
         </div>

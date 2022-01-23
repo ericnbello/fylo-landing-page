@@ -5,9 +5,8 @@ const Arrow = ({ ...props }) => {
     <Image 
         src="/icon-arrow.svg" 
         width="16" 
-        height="16" 
-        fill="none"
-    />
+        height="16"
+      />
   )
 }
 

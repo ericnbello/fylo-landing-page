@@ -1,7 +1,7 @@
 import Image from "next/image";
 import AboutImage from "./images/AboutImage";
 import Arrow from "./icons/Arrow";
-import Quotes from "./icons/Quotes"
+import Testimonial from "./testimonial-card"
 
 export default function About() {
     return (
@@ -29,18 +29,15 @@ export default function About() {
                         Securely share files and folders with friends, family and colleagues for 
                         live collaboration. No email attachments required!
                     </p>
-                    <p>
-                        <a className="text-[#3c9f8f] underline" href="#!">See how Fylo works<Arrow /></a>
-                    </p>
-                    <div className="md:items-start max-w-md mx-auto bg-white rounded-md shadow-md overflow-hidden p-5">
-                        <div className="md:flex">
-                            <div className="p-8">
-                                <Quotes /> 
-                                <p className="mt-2 text-slate-500">Getting a new business off the ground is a lot of hard work. Here are five ideas you can use to find your first customers.</p>
-                                <p>-Tim </p>
-                            </div>
-                        </div>
+                    <div className="line">
+                        <p className="py-10 text-center md:text-left items-center">
+                            <a className="text-[#3c9f8f] hover:text-green-300 underline" href="#!">
+                                See how Fylo works
+                                <Arrow />
+                            </a>
+                        </p>
                     </div>
+                    <Testimonial />
                 </div>
             </div>
         </div>
